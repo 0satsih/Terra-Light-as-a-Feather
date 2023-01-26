@@ -4,7 +4,7 @@ import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
 export const load = (async () => {
-	const flipside = new Flipside("1f5ac839-b5bd-404a-93ff-8f06f84e3a49", 'https://node-api.flipsidecrypto.com');
+	const flipside = new Flipside("9e33bfc5-36f6-4d6e-9469-d505ff459d91", 'https://node-api.flipsidecrypto.com');
 
 	const daily_transactions: Query = {
 		sql: `
