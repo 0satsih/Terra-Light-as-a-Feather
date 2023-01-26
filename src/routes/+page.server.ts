@@ -5,7 +5,7 @@ import type { PageServerLoad } from './$types';
 import { FLIPSIDE_KEY } from '$env/static/private';
 
 export const load = (async () => {
-	const flipside = new Flipside(FLIPSIDE_KEY, 'https://node-api.flipsidecrypto.com');
+	const flipside = new Flipside("1f5ac839-b5bd-404a-93ff-8f06f84e3a49", 'https://node-api.flipsidecrypto.com');
 
 	const daily_transactions: Query = {
 		sql: `
