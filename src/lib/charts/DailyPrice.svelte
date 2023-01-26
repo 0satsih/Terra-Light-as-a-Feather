@@ -15,10 +15,7 @@
 			{
 				data: ydata,
 				label: 'Price (USD)',
-				borderColor: ['#003F5C'],
 				backgroundColor: ['#003F5C'],
-				pointStyle: false,
-				borderRadius: 5
 			}
 		]
 	};
