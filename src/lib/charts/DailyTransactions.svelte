@@ -15,7 +15,7 @@
 			{
 				data: ydata,
 				label: '# of Transactions',
-				backgroundColor: ['#003F5C'],
+				backgroundColor: ['#FFA600'],
 				borderRadius: 5
 			}
 		]

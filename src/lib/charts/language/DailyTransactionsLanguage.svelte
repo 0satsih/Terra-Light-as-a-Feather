@@ -4,19 +4,8 @@
 
 <ChartLanguage>
 	<p slot="language">
-		There are special global settings that can change all of the fonts on the chart. These options
-		are in Chart.defaults.font. The global font settings only apply when more specific options are
-		not included in the config. For example, in this chart the text will have a font size of 16px
-		except for the labels in the legend.There are special global settings that can change all of the
-		fonts on the chart. These options are in Chart.defaults.font. The global font settings only
-		apply when more specific options are not included in the config. For example, in this chart the
-		text will have a font size of 16px except for the labels in the legend.There are special global
-		settings that can change all of the fonts on the chart. These options are in
-		Chart.defaults.font. The global font settings only apply when more specific options are not
-		included in the config. For example, in this chart the text will have a font size of 16px except
-		for the labels in the legend.There are special global settings that can change all of the fonts
-		on the chart. These options are in Chart.defaults.font. The global font settings only apply when
-		more specific options are not included in the config. For example, in this chart the text will
-		have a font size of 16px except for the labels in the legend.
+		In terms of the number of transactions, it is evident that there was a sharp boost to the number
+		of transactions conducted on the few days on and after the day of launch, seeing about double
+		the amount of transactions on the days prior.
 	</p>
 </ChartLanguage>

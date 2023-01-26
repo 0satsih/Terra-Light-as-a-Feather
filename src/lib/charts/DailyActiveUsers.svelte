@@ -15,7 +15,7 @@
 			{
 				data: ydata,
 				label: '# of Users',
-				backgroundColor: ['#003F5C'],
+				backgroundColor: ['#2F4B7C'],
 				borderRadius: 5
 			}
 		]

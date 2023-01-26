@@ -9,4 +9,5 @@
 			<h1 slot="title" class="text-3xl font-bold">Light as a Feather</h1>
 		</Title>
 	</div>
+	<slot name="view" class="justify-end"></slot>
 </div>

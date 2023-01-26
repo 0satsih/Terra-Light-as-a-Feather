@@ -14,8 +14,10 @@
 		datasets: [
 			{
 				data: ydata,
-				label: '# of Users',
-				backgroundColor: ['#A05195'],
+				label: 'Price (USD)',
+				borderColor: ['#003F5C'],
+				backgroundColor: ['#003F5C'],
+				pointStyle: false,
 				borderRadius: 5
 			}
 		]
@@ -23,7 +25,7 @@
 	onMount(() => {
 		const ctx = canvas.getContext('2d');
 		var chart = new Chart(ctx, {
-			type: 'bar',
+			type: 'line',
 			data: data,
 			options: {
 				maintainAspectRatio: false,
@@ -37,12 +39,12 @@
 						grid: {
 							display: false
 						},
-						reverse: true
+						reverse: false
 					},
 					y: {
 						title: {
 							display: true,
-							text: 'Number of Users',
+							text: 'Price (USD)',
 							font: {
 								size: 15,
 								family: "'Roboto', sans-serif",

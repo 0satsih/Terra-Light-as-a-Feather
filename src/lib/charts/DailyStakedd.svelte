@@ -7,15 +7,29 @@
 
 	export let xdata: any;
 	export let ydata: any;
+	export let ydata2: any;
+	export let ydata3: any;
 
 	let canvas: any;
 	const data = {
-		labels: xdata,
+		
 		datasets: [
 			{
 				data: ydata,
-				label: '# of Users',
-				backgroundColor: ['#A05195'],
+				label: 'Delegate',
+				backgroundColor: ['#003F5C'],
+				borderRadius: 5
+			},
+			{
+				data: ydata2,
+				label: 'Undelegate',
+				backgroundColor: ['#FFA600'],
+				borderRadius: 5
+			},
+			{
+				data: ydata3,
+				label: 'Redelegate',
+				backgroundColor: ['#665191'],
 				borderRadius: 5
 			}
 		]
@@ -42,7 +56,7 @@
 					y: {
 						title: {
 							display: true,
-							text: 'Number of Users',
+							text: 'Number of Stakes',
 							font: {
 								size: 15,
 								family: "'Roboto', sans-serif",
